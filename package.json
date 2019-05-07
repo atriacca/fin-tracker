@@ -1,0 +1,35 @@
+{
+  "name": "groupProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bcrypt": "^3.0.6",
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "express-jwt": "^5.3.1",
+    "mongoose": "^5.5.5",
+    "morgan": "^1.9.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-router-dom": "^5.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgr14/groupProject.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dgr14/groupProject/issues"
+  },
+  "homepage": "https://github.com/dgr14/groupProject#readme"
+}
