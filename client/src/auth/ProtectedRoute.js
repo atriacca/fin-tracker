@@ -1,5 +1,5 @@
 import React from "react"
-import { Route, Redirect } from "react-router-dom";
+import { Route, Redirect } from "react-router-dom"
 import { withContext } from "../AppContext"
 
 function ProtectedRoute(props) {
@@ -11,4 +11,4 @@ function ProtectedRoute(props) {
     )
 }
 
-export default withContext(ProtectedRoute);
+export default withContext(ProtectedRoute)

@@ -16,7 +16,7 @@ app.use("/api", expressJwt({ secret: process.env.SECRET }));
 
 // Connect to mongoDB
 mongoose.set('useCreateIndex', true);
-mongoose.connect("mongodb://localhost:27017/expenses",
+mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/expenses",
     { useNewUrlParser: true },
     (err) => {
         if (err) throw err;

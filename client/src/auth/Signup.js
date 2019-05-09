@@ -1,9 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
 import { withContext } from "../AppContext"
 
 class Signup extends Component {
     constructor() {
-        super();
+        super()
         this.state = {
             username: "",
             password: "",
@@ -27,7 +27,7 @@ class Signup extends Component {
     }
     
     handleSubmit = (e) => {
-        e.preventDefault();
+        e.preventDefault()
         this.props.signup(this.state)
             .then(() => this.props.history.push("/expenses"))
             .catch(err => {
@@ -71,4 +71,4 @@ class Signup extends Component {
     }
 }
 
-export default withContext(Signup);
+export default withContext(Signup)
