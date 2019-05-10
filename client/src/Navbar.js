@@ -1,6 +1,6 @@
 import React from 'react'
 import Styles from './Navbar.module.css'
-import { withContext } from "./AppContext"
+import { withContext } from "./AppContextProvider"
 
 function Navbar(props) {
     return (

@@ -1,10 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { BrowserRouter as Router } from "react-router-dom";
-import { AppContextProvider } from "./AppContext";
-import './index.css';
-import './style.css';
-import App from './App';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import { BrowserRouter as Router } from "react-router-dom"
+import { AppContextProvider } from "./AppContextProvider"
+import './index.css'
+import './style.css'
+import App from './App'
 
 ReactDOM.render(
      <AppContextProvider>
@@ -13,4 +13,4 @@ ReactDOM.render(
          </Router>
      </AppContextProvider>,
      document.getElementById("root")
- );
+ )

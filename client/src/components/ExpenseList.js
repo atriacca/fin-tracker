@@ -3,7 +3,7 @@ import Expense from './Expense.js'
 import AddUserForm from './AddUserForm.js'
 import SignInForm from './SignInForm.js'
 import AddExpenseForm from './AddExpenseForm.js'
-import { withContext } from '../AppContext'
+import { withContext } from '../AppContextProvider'
 // import { withExpenses } from '../context/ExpenseProvider.js'
 
 // // Model I'm using to build state with the class below

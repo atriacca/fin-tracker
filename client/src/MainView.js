@@ -5,7 +5,7 @@ import View from './View';
 import Footer from './Footer';
 import Styles from './App.module.css';
 import Entry from './Entry';
-import { withContext } from "./AppContext"
+import { withContext } from "./AppContextProvider"
 // import ExpenseList from './components/ExpenseList';
 
 function MainView(props) {

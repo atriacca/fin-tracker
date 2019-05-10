@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import Styles from './ExpenseView.module.css'
-import { withContext } from "../AppContext"
+import { withContext } from "../AppContextProvider"
 
 class ExpenseView extends Component {
     componentDidMount(){
